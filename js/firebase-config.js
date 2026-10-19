@@ -11,16 +11,25 @@
 //
 // Instrucciones completas en README.md
 // ============================================================
+// Import the functions you need from the SDKs you need
 
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
 export const firebaseConfig = {
-  apiKey: "PEGA_AQUI_TU_API_KEY",
-  authDomain: "PEGA_AQUI_TU_PROYECTO.firebaseapp.com",
-  projectId: "PEGA_AQUI_TU_PROJECT_ID",
-  storageBucket: "PEGA_AQUI_TU_PROYECTO.firebasestorage.app",
-  messagingSenderId: "PEGA_AQUI_TU_SENDER_ID",
-  appId: "PEGA_AQUI_TU_APP_ID",
+  apiKey: "AIzaSyB2aQpHX-QWtWLS1EpGLSP2tP0tVkBLCxY",
+  authDomain: "no-shelf-control-e48f1.firebaseapp.com",
+  projectId: "no-shelf-control-e48f1",
+  storageBucket: "no-shelf-control-e48f1.firebasestorage.app",
+  messagingSenderId: "915684293024",
+  appId: "1:915684293024:web:0e27c2664e8725b17a8cc5"
 };
 
+// Initialize Firebase
 export const isFirebaseConfigured = !Object.values(firebaseConfig).some((v) =>
   String(v).startsWith("PEGA_AQUI")
 );
+
+
+
